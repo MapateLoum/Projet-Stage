@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/logo.jpg" type="image/jpeg">
+    <title>Vols</title>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white">
+        <nav class="container mx-auto flex items-center justify-between py-4">
+            <a href="./index.html">
+                <img id="logo" src="./images/logo.jpg" alt="logo" class="rounded-full" width="90" height=auto>
+            </a>
+            <button class="block lg:hidden border border-gray-600 px-3 py-2 rounded-md text-gray-600 hover:text-black  focus:outline-none" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="hidden lg:flex lg:flex-grow lg:items-center lg:justify-center" id="navbarNav">
+                <ul class="flex space-x-16 text-gray-600 text-sm text-2xl font-medium">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./Vol_Telwind.html">Vols</a></li>
+                    <li><a href="./hotel.html">Hotels</a></li>
+                    <li><a href="./Contact_Telwind.html">Contactez-nous</a></li>
+                    <li><a href="./AboutUs.html">A propos</a></li>
+                    <li class="flex items-center">
+                        <a href="./connexion.html" class="flex items-center space-x-12 lg:justify-end">
+                            <img src="images/pubg.jpg" alt="Photo de Profil" class="image_connexion rounded-full " width="100" height="100">
+                            Papa Loum
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto">
+        <div class="relative">
+            <img src="images/vol_fleur.jpg" alt="vol" class="custom-height w-full h-36 object-cover" />
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+                <h1 class="text-5xl font-bold">Choisissez votre prochaine destination</h1>
+                <p class="text-2xl mt-4">Planifiez facilement vos voyages grâce à un processus simplifié et intuitif</p>
+            </div>
+        </div>
+        
+        <style>
+            /* CSS personnalisé pour définir la hauteur de l'image */
+            .custom-height {
+                height: 400px; 
+            }
+        </style>
+<br><br><br>
+<form action="#" method="POST" class="my-form text-xl">
+    <div class="meme justify-center">
+        <div class="form-group flex-row space-x-4">
+            <label for="type-vol" class="mr-40"></label> 
+            <select id="type-vol" name="type-vol" class="my-input">
+                <option value="aller-retour">Aller-retour</option>
+                <option value="aller-simple">Aller simple</option>
+            </select>
+
+            <label for="nombre-voyageurs"><i class="bi bi-people-fill icon-spacing"></i></label>
+            <input type="number" id="nombre-voyageurs" name="nombre-voyageurs" min="1" max="15" value="1" class="my-input">
+
+            <label for="classe">Classe :</label>
+            <select id="classe" name="classe" class="my-input">
+                <option value="economique">Economique</option>
+                <option value="affaires">Business</option>
+                <option value="premium">Premium</option>
+            </select>
+        </div>
+
+        <br>
+        <div class=" border-2 border-black rounded-lg p-4 ">
+            <div class="form-group flex flex-wrap  justify-center">
+                <label for="depart" class="mr-2"></label>
+                <input type="text" id="depart" name="depart" placeholder="Départ" class="my-input">
+                <i class="bi bi-arrow-left-right mx-2"></i>
+                <label for="arrivee" class="mr-2"></label>
+                <input type="text" id="arrivee" name="arrivee" placeholder="Arrivée" class="my-input">
+                <label for="date-depart" class="mx-2">Date départ :</label>
+                <input type="date" id="date-depart" name="date-depart" class="my-input">
+                <label for="date-retour" class="mx-2">Date retour :</label>
+                <input type="date" id="date-retour" name="date-retour" class="my-input">
+                <button type="submit" class="my-btn inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20 ml-2">Rechercher</button>
+            </div>
+        </div>
+        
+    </div>
+</form>
+
+        <br><br><br>
+        <div class="flex items-center">
+            <span class="border-b border-solid border-black flex-1"></span>
+            <span class="text-lg font-bold text-6xl font-serif mx-2">Destination en vogue</span>
+            <span class="border-b border-solid border-black flex-1"></span>
+        </div>
+        
+        <div class="text-center mt-8">
+            <h2 class="text-3xl font-bold text-gray-900">Vous cherchez des idées d’endroits à visiter ?</h2>
+            <p class="text-lg text-2xl mt-4">Plus besoin d’y penser, retrouvez notre sélection toute faite des lieux les plus visités et appréciés des touristes.</p>
+        </div>
+
+       
+        <div class="image-container mt-12 grid grid-cols-2 gap-4">
+            <div class="image-wrapper relative rounded-3xl overflow-hidden">
+                <img src="images/bouthan.jpg" alt="Image 1" class="image">
+                <a href="">
+                <span class="absolute top-0 left-0 p-2 text-2xl text-white">
+                    <i class="bi bi-geo-alt"></i> Bouthan
+                </span>
+            </a>
+            </div>
+            <div class="image-wrapper relative rounded-3xl overflow-hidden">
+                <img src="images/patrimoine_mondial_humanite_mont_saint_michel.jpg" alt="Image 2" class="image h-300 w-auto">
+                <span class="absolute top-0 left-0 p-2 text-2xl text-white">
+                    <i class="bi bi-geo-alt"></i> Mont-Saint-Michel
+                </span>
+            </div>
+        </div>
+        
+        <div class="image-container mt-12 grid grid-cols-3 gap-4">
+            <div class="image-wrapper relative rounded-3xl overflow-hidden h-64">
+                <img src="images/grand-canyon.jpg" alt="Image 3" class="image h-full w-full object-cover">
+                <span class="absolute top-0 left-0 p-2 text-2xl text-white">
+                    <i class="bi bi-geo-alt"></i> Grand Canyon
+                </span>
+            </div>
+            <div class="image-wrapper relative rounded-3xl overflow-hidden h-64">
+                <img src="images/shutterstock_offset_1876450861-1.webp" alt="Image 4" class="image h-full w-full object-cover">
+                <span class="absolute top-0 left-0 p-2 text-2xl text-white">
+                    <i class="bi bi-geo-alt"></i> Chine
+                </span>
+            </div>
+            <div class="image-wrapper relative rounded-3xl overflow-hidden h-64">
+                <img src="images/paris.jpeg" alt="Image 5" class="image h-full w-full object-cover">
+                <span class="absolute top-0 left-0 p-2 text-2xl text-white">
+                    <i class="bi bi-geo-alt"></i> Paris
+                </span>
+            </div>
+        </div>
+        
+            
+        
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-Gph2ZznJ0F+Q8FFLrKi9G52RTfUFnU1Zk17uHpDIl6U1g2h0Z/uLjPYBdROc3m3O" crossorigin="anonymous"></script>
+</body>
+</html>

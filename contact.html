@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="./images/logo.jpg" type="image/jpeg">
+    <title>Contactez-nous</title>
+</head>
+<body class="contact">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html"><img id="logo" src="./images/logo.jpg" alt="logo" width="30" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./vol.html">Vols</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hotel.html">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contactez-nous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./AboutUs.html">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./connexion.html">
+                            <img src="images/pubg.jpg" alt="Photo de Profil" class="image_connexion">
+                            Papa Loum
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <div class="image-container">
+            <img src="images/contact1.jpg" alt="Image de contact" class="header-image">
+            <div class="centered-text">CONTACT</div>
+        </div>
+        <br>
+        <div class="text-center mt-4 mb-4">
+            <br>
+            <h2>N'HESITEZ PAS A NOUS CONTACTER ET A VISITER NOTRE PAGE</h2><br>
+        </div>
+        <div class="custom-section">
+            <div class="custom-container">
+                <div class="custom-part">
+                    <img src="images/mail_logo.png" alt="Mail Icon" class="custom-icon">
+                    <div class="custom-content">Notre service client est disponible pour vous. Écrivez-nous</div>
+                    <a href="./contact.html"><button class="custom-button">Envoyer mail</button></a>
+                </div>
+                <div class="custom-part">
+                    <img src="images/call_logo.jpg" alt="Phone Icon" class="custom-icon">
+                    <div class="custom-content">Appelez à tout moment. Notre call center vous est ouvert 24h/7j</div>
+                    <a href="./contact.html"><button class="custom-button">Passer l'appel</button></a>
+                </div>
+                <div class="custom-part">
+                    <img src="images/insta_logo.avif" alt="Instagram Icon" class="custom-icon">
+                    <div class="custom-content">Suivez-nous sur Instagram et découvrez de nouvelles opportunités</div>
+                    <a href="./contact.html"><button class="custom-button">Voir la page</button></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-4 mb-4">
+            <br>
+            <h2>LAISSER UN COMMENTAIRE OU POSEZ VOS QUESTIONS</h2><br>
+        </div>
+        <form action="#" method="post" class="my-form">
+            <div class="form-row">
+
+                <div class="meme">
+                            <div class="form-group col-md-6">
+                                <label for="nom">Nom :</label>
+                                <input type="text" class="form-control my-input" id="nom" name="nom" required>
+                            </div>
+                        <div class="form-group col-md-6">
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" class="form-control my-input" id="prenom" name="prenom" required>
+                        </div>
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail :</label>
+                <input type="email" class="form-control my-input" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea class="form-control my-input" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary my-btn">Envoyer</button>
+        </form>
+        <br>
+
+        <div class="text-center mt-4 mb-4">
+            <br>
+            <h2><i class="bi bi-geo-alt icon-spacing"></i>NOTRE LOCALISATION</h2><br>
+        </div>
+        <img src="images/Capture.PNG" class="image">
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

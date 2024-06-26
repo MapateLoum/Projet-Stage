@@ -1,0 +1,307 @@
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* color: white; */
+  }
+
+  .image_connexion {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+ 
+ header{
+    font-size: 24px;
+ }
+  nav {
+      display: flex;
+      justify-content: flex-start;
+      background-color: white;
+  }
+  
+  nav ul{
+      display: flex;
+      list-style: none;
+      margin: auto;
+  }
+  nav ul li{
+      margin: 30px;
+  }
+  
+  #logo{
+      display:inline-block ;
+      width: 70px;
+      border-radius: 50px;
+      margin: 15px 0px 15px 15px;
+  }
+  
+  nav a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  h1{
+      margin-left: 10px;
+      font-size: 40pt;
+      color: white;
+  }
+  p{
+      margin-left: 10px;
+      font-size: 20pt;
+      font-weight: 500;
+      width: 400px;
+      color: white;
+      /* text-align: justify; */
+  }
+  
+  input{
+      color: gray;
+      background-color: white;
+      border-radius: 5px;
+      height: 40px;
+  }
+  
+  
+  
+  /* Styles pour la page de contact */
+  body.contact {
+      
+      background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la page */
+      background-repeat: no-repeat; /* Empêche l'image de se répéter */
+      background-position: center center; /* Centre l'image */
+      margin: 0; /* Enlève les marges par défaut */
+      padding: 0; /* Enlève les paddings par défaut */
+      height: 100vh; /* Assure que le body couvre toute la hauteur de la fenêtre */
+  }
+  
+  .contact-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    border: 0; /* corrected the border property */
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+  
+  .social-links {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .social-link {
+      text-decoration: none;
+      color: #333; /* Couleur du texte */
+      font-size: 18px; /* Taille de la police */
+      margin-bottom: 10px; /* Marge entre les liens */
+  }
+  
+  .social-link:hover {
+      color: #007bff; /* Couleur du texte au survol */
+  }
+  
+  .social-link i {
+      margin-right: 5px; /* Marge à droite de l'icône */
+  }
+  
+  strong {
+      color: black; /* Couleur du texte en noir */
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* 50% de la hauteur de la fenêtre */
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que l'image couvre l'espace sans être déformée */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.text-center {
+    text-align: center;
+}
+
+.text-center h2 {
+    font-size: 35px;
+    color: #333;
+    
+}
+.my-form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.my-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 4px solid #1c1414;
+    border-radius: 3px;
+}
+
+.my-btn {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: #333;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.my-btn:hover {
+    background-color: #0056b3;
+}
+
+.custom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-part {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.custom-content {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.custom-button {
+    padding: 20px 100px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+.custom-button:hover {
+    background-color: #e0e0e0;
+}
+.icon-spacing {
+    margin-right: 15px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+.location-text {
+    margin-top: 20px; /* Ajoutez un espacement en haut pour séparer du formulaire */
+    font-size: 18px; /* Taille de police pour le texte de localisation */
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding: 20px;
+    
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement l'image */
+    align-items: center;     /* Centre verticalement l'image si nécessaire */
+    padding: 20px;           /* Ajustez les valeurs de padding selon vos besoins */
+}
+
+.centered-image {
+    max-width: 90%; /* Limite la largeur de l'image à 90% de la largeur du conteneur */
+    height: 400px; 
+    width: 800px;  /* Maintient les proportions de l'image */
+}
+
+.meme {
+    display: flex;
+    justify-content: space-between; /* To distribute space between items */
+    gap: 20px; /* Optional: adds space between the form groups */
+}
+
+.meme .form-group {
+    flex: 1; /* Allows the form groups to grow and fill available space */
+}
+.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+    height: 300px;
+    object-fit: contain; /* Optionnel */
+  }
+  
